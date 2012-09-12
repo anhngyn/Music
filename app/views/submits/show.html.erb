@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Game:</b>
+  <%= @submit.Game %>
+</p>
+
+<p>
+  <b>Hint:</b>
+  <%= @submit.Hint %>
+</p>
+
+
+<%= link_to 'Edit', edit_submit_path(@submit) %> |
+<%= link_to 'Back', submits_path %>
