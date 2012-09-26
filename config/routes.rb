@@ -1,4 +1,8 @@
 Music::Application.routes.draw do
+  resources :posts
+
+  resources :pledges
+
   resources :submits
 
   get "welcome/index"
