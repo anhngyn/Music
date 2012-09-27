@@ -1,5 +1,9 @@
 Music::Application.routes.draw do
-  resources :posts
+  resources :hints
+
+  resources :posts do
+	resources :comments
+end
 
   resources :pledges
 

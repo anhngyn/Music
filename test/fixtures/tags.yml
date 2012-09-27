@@ -2,10 +2,8 @@
 
 one:
   name: MyString
-  game: MyString
-  content: MyText
+  post: 
 
 two:
   name: MyString
-  game: MyString
-  content: MyText
+  post: 
