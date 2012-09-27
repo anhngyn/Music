@@ -1,4 +1,8 @@
 Music::Application.routes.draw do
+  resources :microposts
+
+  resources :users
+
   resources :hints
 
   resources :posts do
