@@ -8,8 +8,9 @@ gem 'bootstrap-sass', '2.0.4'
 
 group :development do
 	gem 'sqlite3'
+	gem 'rspec-rails', '2.11.0'
 end
-group :prodection do
+group :production do
 	gem 'pg'
 end
 
@@ -41,3 +42,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :test do
+  gem 'capybara', '1.1.2'
+end

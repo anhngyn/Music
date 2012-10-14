@@ -16,8 +16,6 @@ end
   get "welcome/index"
 
   get "welcome/index"
- 
-  root :to => 'posts#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
